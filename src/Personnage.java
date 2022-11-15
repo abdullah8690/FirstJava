@@ -1,8 +1,12 @@
 public class Personnage {
     private String name;
     private String type;
-    private String pv;
-    private String force;
+    private String pv = "10";
+    private String force = "15";
+    private String thingToDefend = "shield";
+    private String weaponToAttack = "sword";
+
+
 
 ////////////////constructor///////////
     public Personnage() {
@@ -57,14 +61,32 @@ public class Personnage {
         this.force = force;
     }
 
+    public String getThingToDefend() {
+        return thingToDefend;
+    }
+
+    public void setThingToDefend(String thingToDefend) {
+        this.thingToDefend = thingToDefend;
+    }
+
+    public String getWeaponToAttack() {
+        return weaponToAttack;
+    }
+
+    public void setWeaponToAttack(String weaponToAttack) {
+        this.weaponToAttack = weaponToAttack;
+    }
 
     @Override
     public String toString() {
+
         return "Personnage{" +
                 "name='" + name + '\'' +
                 ", type='" + type + '\'' +
                 ", pv='" + pv + '\'' +
-                ", force='" + force + '\'' +
+                ", force='" + force + '\''+
+                ". Your character has: " + weaponToAttack +
+            " and " + thingToDefend +
                 '}';
     }
 }

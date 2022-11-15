@@ -1,3 +1,18 @@
 public class EquipementOffensif {
-    public String arme;
+    private String arme;
+
+    ///////// construv
+    public EquipementOffensif(String arme) {
+        this.arme = arme;
+    }
+
+    public String getArme() {
+        return arme;
+    }
+
+    public void setArme(String arme) {
+        this.arme = arme;
+    }
+
+
 }

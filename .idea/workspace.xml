@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirstJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EquipementDefensif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EquipementOffensif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage.java" afterDir="false" />
+    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="this is my fist java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquipementDefensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementDefensif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquipementOffensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementOffensif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RunManager">
@@ -76,8 +72,18 @@
       <option name="presentableId" value="Default" />
       <updated>1668007729277</updated>
       <workItem from="1668007730559" duration="1579000" />
-      <workItem from="1668083547506" duration="8951000" />
+      <workItem from="1668083547506" duration="10185000" />
+      <workItem from="1668413762999" duration="13903000" />
+      <workItem from="1668501121440" duration="6361000" />
     </task>
+    <task id="LOCAL-00001" summary="this is my fist java">
+      <created>1668095638513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668095638513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is my fist java" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my fist java" />
   </component>
 </project>
