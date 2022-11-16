@@ -58,8 +58,6 @@ public class Menu {
                System.out.println("Name :" +perso.getName());
                System.out.println("Type :" + perso.getType());
                return false;
-
-
            case 2:
                return true;
 

@@ -1,10 +1,12 @@
+import java.util.Objects;
+
 public class Personnage {
     private String name;
     private String type;
-    private String pv = "10";
-    private String force = "15";
-    private String thingToDefend = "shield";
-    private String weaponToAttack = "sword";
+    private int pv;
+    private int force;
+    private EquipementDefensif thingToDefend;
+    private EquipementOffensif weaponToAttack;
 
 
 
@@ -21,7 +23,19 @@ public class Personnage {
     public Personnage(String name,String type) {
         this.name=name;
         this.type=type;
-
+        if (Objects.equals(type, "magician")){
+            this.pv=6;
+            this.force=15;
+            this.thingToDefend = new EquipementDefensif("philtre");
+            this.weaponToAttack= new EquipementOffensif("spell");
+        } else if (Objects.equals(type, "warrior")) {
+            this.pv=10;
+            this.force=10;
+            this.weaponToAttack= new EquipementOffensif("sword");
+            this.thingToDefend = new EquipementDefensif("shield");
+        } else {
+            System.out.println("ERROR : bad type");
+        }
     }
 
 
@@ -45,37 +59,22 @@ public class Personnage {
         this.type = type;
     }
 
-    public String getPv() {
+    public int getPv() {
         return pv;
     }
 
-    public void setPv(String pv) {
+    public void setPv(int pv) {
         this.pv = pv;
     }
 
-    public String getForce() {
+    public int getForce() {
         return force;
     }
 
-    public void setForce(String force) {
+    public void setForce(int force) {
         this.force = force;
     }
 
-    public String getThingToDefend() {
-        return thingToDefend;
-    }
-
-    public void setThingToDefend(String thingToDefend) {
-        this.thingToDefend = thingToDefend;
-    }
-
-    public String getWeaponToAttack() {
-        return weaponToAttack;
-    }
-
-    public void setWeaponToAttack(String weaponToAttack) {
-        this.weaponToAttack = weaponToAttack;
-    }
 
     @Override
     public String toString() {
@@ -85,7 +84,7 @@ public class Personnage {
                 ", type='" + type + '\'' +
                 ", pv='" + pv + '\'' +
                 ", force='" + force + '\''+
-                ". Your character has: " + weaponToAttack +
+                ". Your character has: " + weaponToAttack.toString() +
             " and " + thingToDefend +
                 '}';
     }
