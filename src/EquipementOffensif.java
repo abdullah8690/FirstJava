@@ -1,7 +1,6 @@
-public class EquipementOffensif {
-    private String type;
-    private String name;
-    private int niveauAttack;
+public abstract class EquipementOffensif {
+    protected String name;
+    protected int niveauAttack;
 
     public String getName() {
         return name;
@@ -20,26 +19,15 @@ public class EquipementOffensif {
     }
 
     ///////// construv
-    public EquipementOffensif(String type) {
-        this.type = type;
-      //  this.name =name;
-      //  this.niveauAttack =niveauAttack;
+    public EquipementOffensif(String name) {
+        this.name =name;
+        this.niveauAttack =niveauAttack;
     }
 
-    public String getType() {
-        return type;
-    }
 
-    public void setType(String type) {
-        this.type = type;
-    }
 
     @Override
     public String toString() {
-        return "EquipementOffensif{" +
-                "type='" + type + '\'' +
-                ", name='" + name + '\'' +
-                ", niveauAttack=" + niveauAttack +
-                '}';
+        return name + ", niveau attack= " + niveauAttack;
     }
 }

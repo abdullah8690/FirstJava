@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="First part of Dangeon &amp; Dragon Game">
+    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="Eteration 2 Java Plateu">
+      <change afterPath="$PROJECT_DIR$/src/Arme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bouclier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Philtre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThroxExeptionOutOfPlateu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wrrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EquipementDefensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementDefensif.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EquipementOffensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementOffensif.java" afterDir="false" />
@@ -41,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/abdullah.mahzuddin/Desktop/BankAction",
+    "last_opened_file_path": "C:/Users/abdullah.mahzuddin/IdeaProjects/FirstJava",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +82,8 @@
       <workItem from="1668083547506" duration="10185000" />
       <workItem from="1668413762999" duration="13903000" />
       <workItem from="1668501121440" duration="18361000" />
-      <workItem from="1668585908157" duration="6152000" />
+      <workItem from="1668585908157" duration="14126000" />
+      <workItem from="1668672194068" duration="19434000" />
     </task>
     <task id="LOCAL-00001" summary="this is my fist java">
       <created>1668095638513</created>
@@ -91,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668510884051</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Eteration 2 Java Plateu">
+      <created>1668602459585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668602459585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +126,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="this is my fist java" />
     <MESSAGE value="First part of Dangeon &amp; Dragon Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="First part of Dangeon &amp; Dragon Game" />
+    <MESSAGE value="Eteration 2 Java Plateu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eteration 2 Java Plateu" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -26,22 +26,15 @@ public class Menu {
         return name;
     }
 
-    public String  askType(){
+    public int  askType(){
         Scanner nm= new Scanner(System.in);
-        System.out.print("Please enter Type : Warrior And Magician ");
-        String type=nm.nextLine();
+        System.out.print("Please enter Type :(1) To Magician And (2) To  Warrior  ");
+        int type=nm.nextInt();
         System.out.println("-------------------------------------");
         System.out.println("Type :" + type);
         return type;
 
     }
-    /**
-     * afficher toutes les infos du personnage
-     */
-    public void displayAllInfo(){
-
-    }
-
     /**
      * @return true si l'utilisateur veut modifier son perso, false sinon
      */
@@ -55,8 +48,8 @@ public class Menu {
        switch (myChoice){
            case 1:
                System.out.println("Conformation Validated");
-               System.out.println("Name :" +perso.getName());
-               System.out.println("Type :" + perso.getType());
+               System.out.println("Name :" +perso);
+               System.out.println("Type :" + perso);
                return false;
            case 2:
                return true;

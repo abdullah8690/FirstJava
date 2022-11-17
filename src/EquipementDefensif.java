@@ -1,7 +1,6 @@
-public class EquipementDefensif {
-   private String bouclier;
-   private String name;
-   private int niveauDefence;
+public abstract class EquipementDefensif {
+   protected String name;
+   protected int niveauDefence;
 
    public String getName() {
       return name;
@@ -19,27 +18,21 @@ public class EquipementDefensif {
       this.niveauDefence = niveauDefence;
    }
 
-   public EquipementDefensif(String bouclier)
+   public EquipementDefensif(String name)
    {
-      this.bouclier = bouclier;
- //     this.name=name;
- //     this.niveauDefence=niveauDefence;
+      this.name = name;
    }
    public String getBouclier() {
-      return bouclier;
+      return name;
    }
 
    public void setBouclier(String bouclier) {
-      this.bouclier = bouclier;
+      this.name = name;
    }
 
 
    @Override
    public String toString() {
-      return "EquipementDefensif{" +
-              "bouclier='" + bouclier + '\'' +
-              ", name='" + name + '\'' +
-              ", niveauDefence=" + niveauDefence +
-              '}';
+      return name + ", niveau defence= " + niveauDefence;
    }
 }
