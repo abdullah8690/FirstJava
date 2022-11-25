@@ -1,4 +1,7 @@
-import java.util.Objects;
+package Personage;
+
+import Defensif.EquipementDefensif;
+import EquipementOfensif.EquipementOffensif;
 
 public abstract class Personnage {
     private String name;
@@ -7,21 +10,32 @@ public abstract class Personnage {
    protected EquipementDefensif thingToDefend;
     protected EquipementOffensif weaponToAttack;
 
+    private int position;
 
 
-////////////////constructor///////////
+
+    ////////////////constructor///////////
     public Personnage() {
 
     }
 
-    public Personnage(String name) {
+    public Personnage(String name)
+    {
         this.name=name;
+        this.position =0;
     }
 
 
 
 
     //////////////guetterandsetter/////////////
+    public int getPosition() {
+        return position;
+    }
+
+    public void setPosition(int position) {
+        this.position = position;
+    }
 
 
     public String getName() {
@@ -40,10 +54,18 @@ public abstract class Personnage {
 //        this.type = type;
 //    }
 
+    /**
+     *
+     * @return pv to get(in int)
+     */
     public int getPv() {
         return pv;
     }
 
+    /**
+     *
+     * @param pv to set pv(in int)
+     */
     public void setPv(int pv) {
         this.pv = pv;
     }
@@ -60,7 +82,7 @@ public abstract class Personnage {
     @Override
     public String toString() {
 
-        return "Personnage{" +
+        return "Personage.Personnage{" +
                 "name='" + name + '\'' +
                 ", pv='" + pv + '\'' +
                 ", force='" + force + '\''+

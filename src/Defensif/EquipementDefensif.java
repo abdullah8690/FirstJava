@@ -1,4 +1,8 @@
-public abstract class EquipementDefensif {
+package Defensif;
+
+import board.Case;
+
+public abstract class EquipementDefensif implements Case {
    protected String name;
    protected int niveauDefence;
 

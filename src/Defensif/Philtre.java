@@ -1,3 +1,8 @@
+package Defensif;
+
+import Defensif.EquipementDefensif;
+import Personage.Personnage;
+
 public class Philtre extends EquipementDefensif {
 
 
@@ -7,6 +12,11 @@ public class Philtre extends EquipementDefensif {
         this.niveauDefence =15;
 
 
+
+    }
+
+    @Override
+    public void interact(Personnage personnage) {
 
     }
 

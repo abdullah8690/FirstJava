@@ -4,20 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="Eteration 2 Java Plateu">
-      <change afterPath="$PROJECT_DIR$/src/Arme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bouclier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Philtre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThroxExeptionOutOfPlateu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wrrior.java" afterDir="false" />
+    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="Eteration 3 manipulation et heritage Exeption error">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EquipementOfensif/BouclesDeFeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EquipementOfensif/Eclairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EquipementOfensif/Epees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EquipementOfensif/Massues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EquipementOfensif/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personage/Wrrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/CaseVide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ennemy/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ennemy/Ennemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ennemy/Goblines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ennemy/Sorcier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/potion/GrandesPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/potion/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/potion/PotionStandard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EquipementDefensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementDefensif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EquipementOffensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementOffensif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementOfensif/Arme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bouclier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Defensif/Bouclier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquipementDefensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Defensif/EquipementDefensif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquipementOffensif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipementOfensif/EquipementOffensif.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personage/Magician.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personage/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Philtre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Defensif/Philtre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThroxExeptionOutOfPlateu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThroxExeptionOutOfPlateu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wrrior.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,13 +66,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/abdullah.mahzuddin/IdeaProjects/FirstJava",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/abdullah.mahzuddin/Desktop/Msql",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,7 +105,14 @@
       <workItem from="1668413762999" duration="13903000" />
       <workItem from="1668501121440" duration="18361000" />
       <workItem from="1668585908157" duration="14126000" />
-      <workItem from="1668672194068" duration="19434000" />
+      <workItem from="1668672194068" duration="20796000" />
+      <workItem from="1668757961781" duration="15439000" />
+      <workItem from="1669018492544" duration="13858000" />
+      <workItem from="1669121846302" duration="327000" />
+      <workItem from="1669122563130" duration="8624000" />
+      <workItem from="1669192539872" duration="14269000" />
+      <workItem from="1669277087828" duration="7715000" />
+      <workItem from="1669363979946" duration="15622000" />
     </task>
     <task id="LOCAL-00001" summary="this is my fist java">
       <created>1668095638513</created>
@@ -106,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668602459585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Eteration 3 manipulation et heritage Exeption error">
+      <created>1668699911780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668699911780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +163,8 @@
     <MESSAGE value="this is my fist java" />
     <MESSAGE value="First part of Dangeon &amp; Dragon Game" />
     <MESSAGE value="Eteration 2 Java Plateu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eteration 2 Java Plateu" />
+    <MESSAGE value="Eteration 3 manipulation et heritage Exeption error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eteration 3 manipulation et heritage Exeption error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

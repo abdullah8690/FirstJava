@@ -1,4 +1,8 @@
-public abstract class EquipementOffensif {
+package EquipementOfensif;
+
+import board.Case;
+
+public abstract class EquipementOffensif implements Case {
     protected String name;
     protected int niveauAttack;
 
@@ -19,15 +23,16 @@ public abstract class EquipementOffensif {
     }
 
     ///////// construv
-    public EquipementOffensif(String name) {
-        this.name =name;
-        this.niveauAttack =niveauAttack;
+    public EquipementOffensif(String name, int niveauAttack) {
+        this.name = name;
+        this.niveauAttack = niveauAttack;
     }
-
 
 
     @Override
     public String toString() {
         return name + ", niveau attack= " + niveauAttack;
     }
+
+
 }
