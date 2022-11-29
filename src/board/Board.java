@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Board {
-    ArrayList<Case> board = new ArrayList<>();
+    static ArrayList<Case> board = new ArrayList<>();
 
     private final int nbcase;
 
@@ -92,12 +92,9 @@ public class Board {
         return board;
     }
 
-    public void setBord(ArrayList<Case> bord) {
-        this.board = bord;
-    }
 
 
-    public void displayBoard(Personnage personage) {
+    public static void displayBoard(Personnage personage) {
         for (int i = 0; i < board.size(); i++) {
             if (personage.getPosition() == i) {
                 System.out.print("**|");

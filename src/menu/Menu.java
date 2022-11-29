@@ -1,3 +1,5 @@
+package menu;
+
 import Personage.Personnage;
 import Personage.Wrrior;
 
@@ -7,14 +9,14 @@ import java.util.Scanner;
 
 public class Menu {
     /**
-     * Menu principal pour choisir de jouer ou ferme.
+     * menu.Menu principal pour choisir de jouer ou ferme.
      */
     public int mainMenu() {
         Scanner sc= new Scanner(System.in);
         System.out.println("===========================================");
         System.out.println("Welcome to Donjons & Dragons game");
-        System.out.println("(1) Now Play Game");
-        System.out.println("(2) Exit Game");
+        System.out.println("(1) Now Play game.Game");
+        System.out.println("(2) Exit game.Game");
         return Integer.parseInt(sc.nextLine());
     }
 
@@ -83,5 +85,11 @@ public class Menu {
             return false;
        }
        return false;
+   }
+
+   public static String choiceAttackRun(){
+       Scanner sc= new Scanner(System.in);
+       System.out.println("1.Attack | 2.Run");
+       return sc.nextLine();
    }
 }

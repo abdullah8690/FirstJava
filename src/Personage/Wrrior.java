@@ -11,6 +11,7 @@ public class Wrrior extends Personnage {
         this.thingToDefend = new Bouclier("shield");
         this.weaponToAttack = new Arme("arme",0);
 
+
     }
 
     public Wrrior(String name,int pv,int force) {
