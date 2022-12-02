@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="Eteration  5 fini aletoire">
+    <list default="true" id="cb251344-ee65-4c89-8aa1-ea70f43d90ed" name="Changes" comment="Iteration  6 fini">
+      <change afterPath="$PROJECT_DIR$/src/game/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personage/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personage/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personage/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personage/Personnage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Personage/Wrrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personage/Wrrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThroxExeptionOutOfPlateu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ThroxExeptionOutOfPlateu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ennemy/Ennemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ennemy/Ennemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +42,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/abdullah.mahzuddin/Desktop/mysql-connector-j-8.0.31.jar",
+    "last_opened_file_path": "C:/Users/abdullah.mahzuddin/Desktop/collectionCrud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,7 +92,10 @@
       <workItem from="1669277087828" duration="7715000" />
       <workItem from="1669363979946" duration="16262000" />
       <workItem from="1669624934087" duration="21811000" />
-      <workItem from="1669708984878" duration="19445000" />
+      <workItem from="1669708984878" duration="19665000" />
+      <workItem from="1669795862770" duration="15802000" />
+      <workItem from="1669882304905" duration="17856000" />
+      <workItem from="1669968548259" duration="17971000" />
     </task>
     <task id="LOCAL-00001" summary="this is my fist java">
       <created>1668095638513</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669719478143</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Iteration  6 fini">
+      <created>1669737306234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669737306234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +170,8 @@
     <MESSAGE value="Eteration 3 manipulation et heritage Exeption error" />
     <MESSAGE value="Eteration 4 et 5 manipulation et heritage" />
     <MESSAGE value="Eteration  5 fini aletoire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eteration  5 fini aletoire" />
+    <MESSAGE value="Iteration  6 fini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iteration  6 fini" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,5 +189,10 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="con" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

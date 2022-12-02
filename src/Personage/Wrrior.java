@@ -10,6 +10,7 @@ public class Wrrior extends Personnage {
         setPv(10);
         this.thingToDefend = new Bouclier("shield");
         this.weaponToAttack = new Arme("arme",0);
+        setPosition(0);
 
 
     }

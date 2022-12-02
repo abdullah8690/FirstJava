@@ -46,6 +46,13 @@ public abstract class Personnage {
         this.name = name;
     }
 
+    public EquipementDefensif getThingToDefend() {
+        return thingToDefend;
+    }
+
+    public EquipementOffensif getWeaponToAttack() {
+        return weaponToAttack;
+    }
 //    public String getType() {
 //        return type;
 //    }

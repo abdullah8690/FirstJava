@@ -19,6 +19,7 @@ public class Magician extends Personnage {
         this.force=15;
         this.thingToDefend = new Philtre("philtre"); // its liquid to defend
         this.weaponToAttack = new Sort("Sort",0);
+        setPosition(0);
     }
 
     /**
